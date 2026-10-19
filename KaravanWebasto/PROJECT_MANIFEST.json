@@ -1,0 +1,16 @@
+{
+  "name": "KaravanWebasto",
+  "version": "0.1.0-beta",
+  "protocol": "HeatGenie/Boygu",
+  "service": "181A",
+  "notify_preferred": "3A00",
+  "write_preferred": "3A01",
+  "features": [
+    "telemetry",
+    "manual start/stop",
+    "configurable thermostat",
+    "hybrid native-stop/app-restart",
+    "background bluetooth-central",
+    "GitHub Actions unsigned IPA build"
+  ]
+}
