@@ -1,0 +1,26 @@
+name: KaravanWebasto
+options:
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+
+targets:
+  KaravanWebasto:
+    type: application
+    platform: iOS
+    sources:
+      - path: KaravanWebasto
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.karavanmasali.KaravanWebasto
+        PRODUCT_NAME: KaravanWebasto
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: KaravanWebasto/Info.plist
+        CODE_SIGN_STYLE: Automatic
+    scheme:
+      testTargets: []
