@@ -14,7 +14,9 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: KaravanWebasto
+  - path: KaravanWebasto
+    excludes:
+      - Info.plist
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.karavanmasali.KaravanWebasto
